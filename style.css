@@ -1,0 +1,354 @@
+body{
+  background-color: rgb(0, 0, 0);
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;    
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+h2{
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+}
+
+#Title{
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+h3{
+  color: white;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+h4{
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.trolley{
+  width: 7%;
+}
+
+#descrip{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px; 
+}
+
+.banner {
+  background-image: url('images/background.webp');
+  padding: 80px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px
+
+}
+
+#banner-infos{
+  padding: 15px;
+  padding-left: 50px;
+}
+
+#intro {
+  font-size: 26px;
+  color: white;
+}
+
+#brand-logo {
+  height: 100px;
+  display: block;
+  margin: 60px 0;
+
+}
+
+#product {
+  height: auto;
+  display: inline;
+  vertical-align: middle;
+  max-width: 100%;
+
+}
+
+.btn-white {
+  color: white;
+  background-color: black;
+  border: 6px solid white;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.btn-white:hover {
+  background-color: grey;
+  border: none;
+}
+
+.btn-black{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 24px;
+  text-decoration: none;
+  background: transparent;
+  text-align: center;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn-black:hover{
+  background-color: black;
+  border: none;
+  color: white;
+
+}
+
+.btn-red{
+  color: white;
+  background-color: #ED1C24;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.btn-red:hover{
+  background-color: red;
+  border: none;
+  color: white;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.btn-grey {
+  color: white;
+  background-color: transparent;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+}
+
+.btn-grey:hover{
+  background-color: rgba(255,255,255,0.25);
+  border: 2px solid black;
+  color: white;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.Produits{
+  background-color: white;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.infos {
+  background-image: url(https://www.amd.com/system/files/2022-12/1790950-amd-privacyvsprogress-herofilm-1920x600.jpg);
+  padding: 50px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#text {
+  background-color: rgba(0,0,0,0.7);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 100;
+  width: 80%; 
+}
+
+.games{
+  background-image: url(https://www.amd.com/system/files/10286-xfxrx550-background-1920x600.jpg);
+  padding: 50px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+#video{
+  height: auto;
+  display: inline;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.last{
+  background-image: url(https://www.amd.com/system/files/2021-03/white-geometric-arrow-texture-bg-1920x450.jpg);
+  background-position: center;
+  padding: 80px;
+  text-align: center;
+}
+
+#LASTT{
+  font-size: 26px;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+.LASTA{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 24px;
+  text-decoration: none;
+  background: transparent;
+  text-align: center;
+  display: inline-block;
+}
+
+.LASTA:hover{
+  background-color: black;
+  border: none;
+  color: white;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#lol{ 
+  text-align: right;
+
+}
+
+#listy{
+  display: inline;
+  margin: 25px;
+  color: white;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.head{
+  padding: 7px;
+  display: grid;
+  grid-template-columns: 70% 30%; 
+  grid-gap: 10px;
+}
+
+#heady{
+  text-align: right;
+  justify-content: space-between 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#heady img{
+  margin-top: 10px;
+  padding: 0px 20px;
+}
+
+
+
+.last-container {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FOOTER{
+  background-color: black;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#tito{
+  font-size: 24;
+  font-weight: 700;
+  color: white;
+  list-style-type: none;
+}
+
+li{
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.Link-hover{
+  font-size: 20px;
+  color: rgb(157,159,162);
+  text-decoration: none;
+}
+
+.Link-hover:hover{
+  color: #F4F4F4;
+  text-decoration: underline;
+  transition:0.3ms ; 
+}
+
+.FOOTER{
+  margin: 0px 200px;
+}
+
+
+#listyy{
+  display: inline;
+  margin: 10px;
+  color: rgb(157,159,162);
+  font-size: 14px;
+  list-style-type: none;
+  text-align: justify;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+#LOOL{
+  text-align: center;
+}
+
+#final{
+  width: 1700px;  
+}
+
+#sentence{
+  text-align: center;
+  color: rgb(157,159,162);
+  margin: 35px;
+}
+
+.Link-hoover{
+  font-size: 16px;
+  color: rgb(157,159,162);
+  text-decoration: none;
+}
+
+.Link-hoover:hover{
+  color: #F4F4F4;
+  text-decoration: underline;
+  transition:0.3ms ; 
+}
+
+
